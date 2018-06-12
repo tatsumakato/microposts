@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    @if (Auth::check())
+     @if (Auth::check())
         <div class="row">
             <aside class="col-md-4">
             </aside>
@@ -11,7 +11,7 @@
                 @endif
             </div>
         </div>
-    @else
+    @else 
         <div class="center jumbotron">
             <div class="text-center">
                 <h1>Welcome to the Microposts</h1>
